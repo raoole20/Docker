@@ -1,0 +1,171 @@
+{
+  "ID": "ZZYG:O2RO:42GV:C2SC:NBDF:ODLQ:NSBM:KTF3:G3IB:GD6I:GNQU:Z237",
+  "Containers": 3,
+  "ContainersRunning": 1,
+  "ContainersPaused": 0,
+  "ContainersStopped": 2,
+  "Images": 2,
+  "Driver": "overlay2",
+  "DriverStatus": [
+    ["Backing Filesystem", "extfs"],
+    ["Supports d_type", "true"],
+    ["Native Overlay Diff", "true"],
+    ["userxattr", "false"]
+  ],
+  "Plugins": {
+    "Volume": ["local"],
+    "Network": ["bridge", "host", "ipvlan", "macvlan", "null", "overlay"],
+    "Authorization": null,
+    "Log": [
+      "awslogs",
+      "fluentd",
+      "gcplogs",
+      "gelf",
+      "journald",
+      "json-file",
+      "local",
+      "logentries",
+      "splunk",
+      "syslog"
+    ]
+  },
+  "MemoryLimit": true,
+  "SwapLimit": true,
+  "KernelMemory": false,
+  "KernelMemoryTCP": false,
+  "CpuCfsPeriod": true,
+  "CpuCfsQuota": true,
+  "CPUShares": true,
+  "CPUSet": true,
+  "PidsLimit": true,
+  "IPv4Forwarding": true,
+  "BridgeNfIptables": true,
+  "BridgeNfIp6tables": true,
+  "Debug": false,
+  "NFd": 54,
+  "OomKillDisable": false,
+  "NGoroutines": 55,
+  "SystemTime": "2022-11-29T20:13:32.4294284Z",
+  "LoggingDriver": "json-file",
+  "CgroupDriver": "cgroupfs",
+  "CgroupVersion": "2",
+  "NEventsListener": 5,
+  "KernelVersion": "5.15.49-linuxkit",
+  "OperatingSystem": "Docker Desktop",
+  "OSVersion": "",
+  "OSType": "linux",
+  "Architecture": "x86_64",
+  "IndexServerAddress": "https://index.docker.io/v1/",
+  "RegistryConfig": {
+    "AllowNondistributableArtifactsCIDRs": [],
+    "AllowNondistributableArtifactsHostnames": [],
+    "InsecureRegistryCIDRs": ["127.0.0.0/8"],
+    "IndexConfigs": {
+      "docker.io": {
+        "Name": "docker.io",
+        "Mirrors": [],
+        "Secure": true,
+        "Official": true
+      },
+      "hubproxy.docker.internal:5000": {
+        "Name": "hubproxy.docker.internal:5000",
+        "Mirrors": [],
+        "Secure": false,
+        "Official": false
+      }
+    },
+    "Mirrors": []
+  },
+  "NCPU": 2,
+  "MemTotal": 2081345536,
+  "GenericResources": null,
+  "DockerRootDir": "/var/lib/docker",
+  "HttpProxy": "http.docker.internal:3128",
+  "HttpsProxy": "http.docker.internal:3128",
+  "NoProxy": "hubproxy.docker.internal",
+  "Name": "docker-desktop",
+  "Labels": [],
+  "ExperimentalBuild": false,
+  "ServerVersion": "20.10.21",
+  "Runtimes": {
+    "io.containerd.runc.v2": { "path": "runc" },
+    "io.containerd.runtime.v1.linux": { "path": "runc" },
+    "runc": { "path": "runc" }
+  },
+  "DefaultRuntime": "runc",
+  "Swarm": {
+    "NodeID": "",
+    "NodeAddr": "",
+    "LocalNodeState": "inactive",
+    "ControlAvailable": false,
+    "Error": "",
+    "RemoteManagers": null
+  },
+  "LiveRestoreEnabled": false,
+  "Isolation": "",
+  "InitBinary": "docker-init",
+  "ContainerdCommit": {
+    "ID": "1c90a442489720eec95342e1789ee8a5e1b9536f",
+    "Expected": "1c90a442489720eec95342e1789ee8a5e1b9536f"
+  },
+  "RuncCommit": { "ID": "v1.1.4-0-g5fd4c4d", "Expected": "v1.1.4-0-g5fd4c4d" },
+  "InitCommit": { "ID": "de40ad0", "Expected": "de40ad0" },
+  "SecurityOptions": ["name=seccomp,profile=default", "name=cgroupns"],
+  "Warnings": null,
+  "ClientInfo": {
+    "Debug": false,
+    "Context": "default",
+    "Plugins": [
+      {
+        "SchemaVersion": "0.1.0",
+        "Vendor": "Docker Inc.",
+        "Version": "v0.9.1",
+        "ShortDescription": "Docker Buildx",
+        "Name": "buildx",
+        "Path": "C:\\Program Files\\Docker\\cli-plugins\\docker-buildx.exe"
+      },
+      {
+        "SchemaVersion": "0.1.0",
+        "Vendor": "Docker Inc.",
+        "Version": "v2.12.2",
+        "ShortDescription": "Docker Compose",
+        "Name": "compose",
+        "Path": "C:\\Program Files\\Docker\\cli-plugins\\docker-compose.exe"
+      },
+      {
+        "SchemaVersion": "0.1.0",
+        "Vendor": "Docker Inc.",
+        "Version": "v0.0.3",
+        "ShortDescription": "Docker Dev Environments",
+        "Name": "dev",
+        "Path": "C:\\Program Files\\Docker\\cli-plugins\\docker-dev.exe"
+      },
+      {
+        "SchemaVersion": "0.1.0",
+        "Vendor": "Docker Inc.",
+        "Version": "v0.2.13",
+        "ShortDescription": "Manages Docker extensions",
+        "Name": "extension",
+        "Path": "C:\\Program Files\\Docker\\cli-plugins\\docker-extension.exe"
+      },
+      {
+        "SchemaVersion": "0.1.0",
+        "Vendor": "Anchore Inc.",
+        "Version": "0.6.0",
+        "ShortDescription": "View the packaged-based Software Bill Of Materials (SBOM) for an image",
+        "URL": "https://github.com/docker/sbom-cli-plugin",
+        "Name": "sbom",
+        "Path": "C:\\Program Files\\Docker\\cli-plugins\\docker-sbom.exe"
+      },
+      {
+        "SchemaVersion": "0.1.0",
+        "Vendor": "Docker Inc.",
+        "Version": "v0.21.0",
+        "ShortDescription": "Docker Scan",
+        "Name": "scan",
+        "Path": "C:\\Program Files\\Docker\\cli-plugins\\docker-scan.exe"
+      }
+    ],
+    "Warnings": null
+  }
+}
